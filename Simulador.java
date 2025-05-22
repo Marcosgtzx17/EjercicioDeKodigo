@@ -38,6 +38,6 @@ public class Simulador {
             }
         } while (opcion != 0);
 
-        scanner.close();
+        scanner.close(); 
     }
 }

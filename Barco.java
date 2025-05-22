@@ -8,7 +8,7 @@ public class Barco {
         this.filas = filas;
         this.columnas = columnas;
         this.tripulantes = new Tripulante[filas][columnas];
-        this.ocupados = 0;
+        this.ocupados = 0; 
     }
 
     public boolean agregarTripulante(Tripulante t) {
